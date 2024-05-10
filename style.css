@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+body{
+    width: auto;
+    height: auto;
+}
+.color{
+    background-color: black;
+}
+.menu{
+  background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+}
+.h3{
+    display: flex;
+    justify-content: center;
+}
+.btn-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo_site .imagem1 .ambiente1 img{
+    width: 500px;
+    height: 250px;
+}
+.teste > .botao{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+/* Piso Imagem */
+.imagem{
+    width: 100%;
+    height: 100%;    
+}
+.imagem img{
+    width: 100%;
+}
+.ambiente{
+    position: absolute;
+    margin:auto; 
+    width: 100%;  
+}
+.tamanho{
+    width: 100%;
+}
+.imgPiso img{
+    padding: 5px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+.imgRev{
+    display: flex;
+    justify-content: center;
+}
+.imgRev img{
+    padding-left:10px ;
+    padding-top: 5px;
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+}
+
+/* Cadastro de Imagens */
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.select{
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    width: 500px;
+}
+.box{
+    width: auto;
+    height: auto;
+    background: #fff;
+}
+.galeria{
+    width: 75px;
+    height: 75px;
+    margin: 10px 5px 0 0;
+}
+.miniatura {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+/* Login */
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,253,253,1) 47%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.boxLogin{
+    width: 500px;
+    height: 500px;   
+}
+.table img{
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width: 600px) {
+    .imgRev{
+        /* overflow-x: hidden; */
+        /* overflow-y: scroll;    */
+        margin-left: 10px;
+        width: auto;
+        height: 200px;
+        
+    }
+}
+
