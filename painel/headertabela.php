@@ -19,7 +19,7 @@ while($linha = mysqli_fetch_array($resultado)){
     $desc = $linha["desc_amb"];
     $foto = $linha["foto_amb"];
     $exclui = "<a href ='?acao=excluir&codigo=$id' onclick='return deletar();return false; type='button' class='btn btn-primary'>Excluir</a>";
-    $atualizar = "<button  type='button' class='btn btn-primary' data-toggle='modal' id ='$id' onclick='codigo(this)' data-target='#ExemploModalCentralizado'>Editar</button>";
+    $atualizar = "<button  type='button' class='btn btn-primary' data-toggle='modal' id ='$id' onclick='codigo(this)' data-target='#addAmbiente'>Editar</button>";
 
     $tabela .= "
      <tbody>
